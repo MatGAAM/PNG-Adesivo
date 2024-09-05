@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vw;
+  width: 100vw;
+  background-color: #ddffddff;
+}
+
+.div > .imagem {
+  width: 50vw;
+  height: 50vh;
+  filter: 
+    drop-shadow(3px 0px 0px rgb(255, 255, 255)) /*direita*/
+    drop-shadow(0px 3px 0px rgb(255, 255, 255)) /*baixo*/
+    drop-shadow(-3px 0px 0px rgb(255, 255, 255)) /*esquerda*/
+    drop-shadow(0px -3px 0px rgb(255, 255, 255)) /*cima*/
+    drop-shadow(3.2px 0px 0px rgb(0, 0, 0)) /*direita*/
+    drop-shadow(0px 3.2px 0px rgb(0, 0, 0)) /*baixo*/
+    drop-shadow(-3.2px 0px 0px rgb(0, 0, 0)) /*esquerda*/
+    drop-shadow(0px -3.2px 0px rgb(0, 0, 0)) /*cima*/
+  ;
+}
